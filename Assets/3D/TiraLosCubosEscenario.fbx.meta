@@ -3,7 +3,47 @@ guid: a4668cd03d0437849803478eccac16a3
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasesParaCubo
+    second: {fileID: 2100000, guid: e2f89526b923524429631ee05d1e53ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasesParaCubos
+    second: {fileID: 2100000, guid: f817c53701201f142b794670a9e979e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpa2
+    second: {fileID: 2100000, guid: ae254412573f8b246ad3fe7e9535bab9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaderaPiso
+    second: {fileID: 2100000, guid: 1ae5ca0fd5c39724490f86523863e485, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #116.001
+    second: {fileID: 2100000, guid: 0933fd6802af39843a2c8d772ad5b949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PalosCarpa
+    second: {fileID: 2100000, guid: 44250f8683d11984ebf393e9aa4a9ae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedFondo
+    second: {fileID: 2100000, guid: 98a249b4b0d283841995533e320d8507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tablero
+    second: {fileID: 2100000, guid: be65f25506f40ab48abe0a736226e953, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
