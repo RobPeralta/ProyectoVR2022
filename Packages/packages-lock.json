@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.jorgejgnz.hptk": {
+      "version": "https://github.com/jorgejgnz/HPTK.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "319dac61df50729616495b4bdb382b26071b376f"
+    },
     "com.unity.burst": {
       "version": "1.7.3",
       "depth": 1,

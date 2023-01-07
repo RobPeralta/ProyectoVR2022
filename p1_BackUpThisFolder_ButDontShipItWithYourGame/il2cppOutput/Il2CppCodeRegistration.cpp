@@ -95,9 +95,11 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebu
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_VoiceSDK_Dictation_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_VoiceSDK_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_jorgejgnz_hptk_editor_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_jorgejgnz_hptk_runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[78] = 
+const Il2CppCodeGenModule* g_CodeGenModules[80] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_AssistantCoreSDKRuntime_CodeGenModule),
@@ -176,6 +178,8 @@ const Il2CppCodeGenModule* g_CodeGenModules[78] =
 	(&g_VoiceSDK_Dictation_Runtime_CodeGenModule),
 	(&g_VoiceSDK_Runtime_CodeGenModule),
 	(&g___Generated_CodeGenModule),
+	(&g_jorgejgnz_hptk_editor_CodeGenModule),
+	(&g_jorgejgnz_hptk_runtime_CodeGenModule),
 	(&g_mscorlib_CodeGenModule),
 };
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
@@ -183,18 +187,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	15,
 	g_ReversePInvokeWrapperPointers,
-	57764,
+	58327,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	14836,
+	14905,
 	g_Il2CppInvokerPointers,
-	2173,
+	2190,
 	g_UnresolvedVirtualMethodPointers,
-	1061,
+	1063,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	78,
+	80,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
