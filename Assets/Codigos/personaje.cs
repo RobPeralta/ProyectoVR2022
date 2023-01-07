@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class personaje : MonoBehaviour
@@ -9,6 +11,7 @@ public class personaje : MonoBehaviour
     public Vector3 velocidadPersonaje; 
     public bool estaEnPiso;
     public float gravedad, aceleracionpersonaje, fuerzaSalto;
+    public Transform posicionCollider;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +22,7 @@ public class personaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       posicionCollider.position = new Vector3(gameObject.transform.position.x, posicionCollider.position.y, gameObject.transform.position.z);
        muevePersonaje();
 
     }
